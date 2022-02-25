@@ -17,8 +17,7 @@ Usage:
 
 git clone xxxxxxx
 
-git clone https://github.com/dingkeyan93/DISTS
-
+git clone https://github.com/hellooks/CDnet
 
 
 
