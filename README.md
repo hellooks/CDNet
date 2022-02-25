@@ -1,2 +1,30 @@
 # CDnet
-Measuring Perceptual Color Differences ofSmartphone Photography
+
+This is the repository of paper Measuring Perceptual Color Differences ofSmartphone Photography
+
+Highlights:
+
+
+Pytorch DISTS_pt.py (recommend)
+
+====== Pytorch ======
+Installation:
+pip install dists-pytorch
+Requirements:
+Python>=3.6
+Pytorch>=1.0
+Usage:
+
+git clone xxxxxxx
+
+git clone https://github.com/dingkeyan93/DISTS
+
+
+
+
+Citation
+@article{
+xxxx
+xxx
+xxx
+}
