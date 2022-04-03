@@ -10,16 +10,10 @@ Measures for visual color differences (CDs) are pivotal in hardware and software
 4) reproduced with incorrect color profiles
 
 Moreover, we conduct a large-scale psychophysical experiment to gather visual CDs of 30000 image pairs from 20 human subjects in a well-designed laboratory environment. We propose a learning-based and end-to-end optimized CD method based on the proposed dataset, which generalizes CIELAB-based metrics and delivers superior CD assessment performance in the presence of misalignment.
-## Install
 
-
-```sh
-$ npm install --global standard-readme-spec
-```
 ## Highlights
-Pytorch DISTS_pt.py (recommend)
 
-====== Pytorch ======
+======== Pytorch ========
 Installation:
 
 Requirements:
