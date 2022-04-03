@@ -1,4 +1,4 @@
-# CDnet
+# CD-Net
 
 This is the repository of paper Measuring Perceptual Color Differences of Smartphone Photography
 
