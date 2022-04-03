@@ -1,8 +1,8 @@
 # CD-Net
 This is the repository of paper Measuring Perceptual Color Differences of Smartphone Photography.
 
-## Background
 
+## Background
 Measures for visual color differences (CDs) are pivotal in hardware and software upgrading of modern smartphone photography. Towards this goal, we construct currently the largest database for visual CDs for smartphone photography. Our database consists of 15335 natural images:
 1) captured by six latest flagship smartphones
 2) altered by Photoshop®
