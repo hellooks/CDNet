@@ -3,10 +3,14 @@
 This is the repository of paper Measuring Perceptual Color Differences of Smartphone Photography
 ## Background
 
-Standard Readme started with the issue originally posed by [@maxogden](https://github.com/maxogden) over at [feross/standard](https://github.com/feross/standard) in [this issue](https://github.com/feross/standard/issues/141), about whether or not a tool to standardize readmes would be useful. A lot of that discussion ended up in [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) repository. While working on maintaining the [IPFS](https://github.com/ipfs) repositories, I needed a way to standardize Readmes across that organization. This specification started as a result of that.
+Measures for visual color differences (CDs) are pivotal in hardware and software upgrading of modern smartphone photography. Towards this goal, we construct currently the largest database for visual CDs for smartphone photography. Our database consists of 15335 natural images 
+1) Captured by six latest flagship smartphones
+2) Altered by Photoshop®,
+3) Post-processed by built-in filters of smartphones
+4) reproduced with incorrect color profiles. 
+Moreover, we conduct a large-scale psychophysical experiment to gather visual CDs of 30000 image pairs from 20 human subjects in a well-designed laboratory environment. We construct a learning-based and end-to-end optimized CD method based on the proposed dataset, which generalizes CIELAB-based metrics and delivers superior CD assessment performance in the presence of misalignment.
+
 ## Highlights
-
-
 Pytorch DISTS_pt.py (recommend)
 
 ====== Pytorch ======
