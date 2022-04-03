@@ -20,7 +20,7 @@ Installation:
 Requirements:
 Python>=3.6
 Pytorch>=1.0
-# Usage
+## Usage
 ```sh
 $ git clone https://github.com/hellooks/CDnet
 $ run main.py
