@@ -23,9 +23,7 @@ Pytorch DISTS_pt.py (recommend)
 Installation:
 
 Requirements:
-Python>=3.6
-Pytorch>=1.0
-cnn_finetune
+Python>=3.6,Pytorch>=1.0,cnn_finetune
 
 Go check them out if you don't have them locally installed.
 ## Usage
