@@ -27,8 +27,9 @@ $ run main.py
 ```
 
 Citation
-@article{
-xxxx
-xxx
-xxx
+@article{wang2022measuring,
+  title={Measuring Perceptual Color Differences of Smartphone Photography},
+  author={Wang, Zhihua and Xu, Keshuo and Yang, Yang and Dong, Jianlei and Gu, Shuhang and Xu, Lihao and Fang, Yuming and Ma, Kede},
+  journal={arXiv preprint arXiv:2205.13489},
+  year={2022}
 }
