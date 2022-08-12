@@ -17,9 +17,12 @@ Moreover, we conduct a large-scale psychophysical experiment to gather visual CD
 Installation:
 
 Requirements:
+```sh
 Python>=3.6,
 Pytorch>=1.0,
 cnn_finetune
+```
+
 
 Go check them out if you don't have them locally installed.
 ## Usage
