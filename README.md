@@ -14,6 +14,7 @@ Moreover, we conduct a large-scale psychophysical experiment to gather visual CD
 ## Highlights
 
 ======== Pytorch ========
+
 Requirements:
 ```sh
 Python>=3.6
