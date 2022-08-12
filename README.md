@@ -18,8 +18,8 @@ Installation:
 
 Requirements:
 ```sh
-Python>=3.6,
-Pytorch>=1.0,
+Python>=3.6
+Pytorch>=1.0
 cnn_finetune
 ```
 
