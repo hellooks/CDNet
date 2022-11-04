@@ -1,5 +1,5 @@
 # CD-Net
-This is the repository of paper Measuring Perceptual Color Differences of Smartphone Photography.
+This is the repository of paper [Measuring Perceptual Color Differences of Smartphone Photography](https://arxiv.org/abs/2205.13489)
 
 
 ## Background
