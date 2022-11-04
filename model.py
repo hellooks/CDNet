@@ -49,7 +49,4 @@ class Siamese(nn.Module):
         return torch.mean(score, dim=1)
 if __name__ == "__main__":
         model = Siamese()
-        x = torch.rand(2,3,224, 224)
-        y = torch.rand(2,3,224, 224)
-        output=model(x,y)
-        print(output.shape)
+        print(model)
