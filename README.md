@@ -27,7 +27,7 @@ Go check them out if you don't have them locally installed.
 ## Usage
 ```sh
 $ git clone https://github.com/hellooks/CDnet
-$ python main.py
+$ sh ksrun.sh
 ```
 
 ## Citation
