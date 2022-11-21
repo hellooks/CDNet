@@ -23,13 +23,15 @@ Python>=3.6
 Pytorch>=1.0
 cnn_finetune
 ```
+Go check them out if you don't have them locally installed.
 ======== Download ========
-
 SPCD Database:
+
 [BaiduDisk](coming soon)
+
 [Google Drive](coming soon)
 
-Go check them out if you don't have them locally installed.
+
 ## Usage
 ```sh
 $ git clone https://github.com/hellooks/CDnet
