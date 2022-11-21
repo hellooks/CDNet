@@ -11,6 +11,9 @@ Measures for visual color differences (CDs) are pivotal in hardware and software
 
 Moreover, we conduct a large-scale psychophysical experiment to gather visual CDs of 30000 image pairs from 20 human subjects in a well-designed laboratory environment. We propose a learning-based and end-to-end optimized CD method based on the proposed dataset, which generalizes CIELAB-based metrics and delivers superior CD assessment performance in the presence of misalignment.
 
+Download:
+SPCD(coming soon)
+
 ## Highlights
 
 ======== Pytorch ========
@@ -38,5 +41,15 @@ If you find the repository helpful in your resarch, please cite the following pa
   author={Wang, Zhihua and Xu, Keshuo and Yang, Yang and Dong, Jianlei and Gu, Shuhang and Xu, Lihao and Fang, Yuming and Ma, Kede},
   journal={arXiv preprint arXiv:2205.13489},
   year={2022}
+}
+```
+```sh
+@inproceedings{xu2022database,
+  title={A Database of Visual Color Differences of Modern Smartphone Photography},
+  author={Xu, Keshuo and Wang, Zhihua and Yang, Yang and Dong, Jianlei and Xu, Lihao and Fang, Yuming and Ma, Kede},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
+  pages={3758--3762},
+  year={2022},
+  organization={IEEE}
 }
 ```
