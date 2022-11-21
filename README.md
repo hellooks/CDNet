@@ -34,7 +34,7 @@ $ sh ksrun.sh
 ```
 
 ## Citation
-If you find the repository helpful in your resarch, please cite the following paper.
+If you find the repository helpful in your resarch, please cite the following papers.
 ```sh
 @article{wang2022measuring,
   title={Measuring Perceptual Color Differences of Smartphone Photography},
