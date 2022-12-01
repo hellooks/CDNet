@@ -25,13 +25,10 @@ cnn_finetune
 ```
 Go check them out if you don't have them locally installed.
 
-======== Download ========
+======== SPCD Database ========
 
-SPCD Database:
 
-[BaiduDisk](https://pan.baidu.com/s/18bzu-qhpMW3PqLTlVdoZRQ?pwd=txeh)
-
-[Google Drive](https://drive.google.com/drive/folders/1Oox6eQq_N9rrEF0uUeQexd7ANbAgkLW7?usp=share_link)
+You can download via [BaiduDisk](https://pan.baidu.com/s/18bzu-qhpMW3PqLTlVdoZRQ?pwd=txeh) or [Google Drive](https://drive.google.com/drive/folders/1Oox6eQq_N9rrEF0uUeQexd7ANbAgkLW7?usp=share_link).
 
 ======== Kaggle Competetion ========
 
