@@ -33,6 +33,8 @@ SPCD Database:
 
 [Google Drive](https://drive.google.com/drive/folders/1Oox6eQq_N9rrEF0uUeQexd7ANbAgkLW7?usp=share_link)
 
+We also host a [Community Prediction Competition](https://www.kaggle.com/competitions/spcd-database).
+
 
 ## Usage
 ```sh
