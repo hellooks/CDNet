@@ -41,7 +41,6 @@ We also host a [Community Prediction Competition](https://www.kaggle.com/competi
 ## Usage
 ```sh
 $ git clone https://github.com/hellooks/CDnet
-$ sh ksrun.sh
 ```
 
 ## Citation
