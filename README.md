@@ -31,7 +31,7 @@ You can download via [BaiduDisk](https://pan.baidu.com/s/18bzu-qhpMW3PqLTlVdoZRQ
 
 ======== Kaggle Competetion ========
 
-We also host a [Community Prediction Competition](https://www.kaggle.com/competitions/visual-color-difference-evaluatio).
+We also host a [Community Prediction Competition](https://www.kaggle.com/competitions/visual-color-difference-evaluation).
 
 
 ## Usage
