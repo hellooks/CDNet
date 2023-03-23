@@ -2,7 +2,7 @@
 ## Introduction
 This repository contains the official pytorch implementation of the paper ["Measuring Perceptual Color Differences of Smartphone Photographs"](https://arxiv.org/abs/2205.13489) by Zhihua Wang, Keshuo Xu, Yang Yang, Jianlei Dong, Shuhang Gu, Lihao Xu, Yuming Fang and Kede Ma, IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023. 
 
-Measures for visual color differences (CDs) are pivotal in hardware and software upgrading of modern smartphone photography. We firstly construct currently the largest database for visual CDs for smartphone photography. We then conduct a large-scale psychophysical experiment to gather perceptual CDs of 30,000 image pairs in a carefully controlled laboratory environment. Based on the newly established dataset, we make one of the first attempts to construct an end-to-end learnable CD formula based on a lightweight neural network, as a generalization of several previous metrics. Extensive experiments demonstrate that the optimized formula outperforms 33 existing CD measures by a large margin, offers reasonable local CD maps without the use of dense supervision, generalizes well to homogeneous color patch data.
+Measures for visual color differences (CDs) are pivotal in hardware and software upgrading of modern smartphone photographs. We firstly construct currently the largest database for visual CDs for smartphone photography. We then conduct a large-scale psychophysical experiment to gather perceptual CDs of 30,000 image pairs in a carefully controlled laboratory environment. Based on the newly established dataset, we make one of the first attempts to construct an end-to-end learnable CD formula based on a lightweight neural network, as a generalization of several previous metrics. Extensive experiments demonstrate that the optimized formula outperforms 33 existing CD measures by a large margin, offers reasonable local CD maps without the use of dense supervision, generalizes well to homogeneous color patch data.
 
 ## Dataset
 [Our database](https://ieeexplore.ieee.org/abstract/document/9897498)(SPCD) consists of 15335 natural images:
@@ -17,12 +17,10 @@ We also host a Community Prediction Competition about [Visual Color Difference E
 * pytorch 1.12.0
 * ``pip install -r requirements.txt``
 
-Go check them out if you don't have them locally installed.
 ## Usage
 ```sh
 $ git clone https://github.com/hellooks/CDNet
 ```
-
 ## Citation
 If you find the repository helpful in your resarch, please cite the following papers.
 ```sh
