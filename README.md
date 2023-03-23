@@ -20,7 +20,7 @@ We also host a Community Prediction Competition about [Visual Color Difference E
 Go check them out if you don't have them locally installed.
 ## Usage
 ```sh
-$ git clone https://github.com/hellooks/CDnet
+$ git clone https://github.com/hellooks/CDNet
 ```
 
 ## Citation
