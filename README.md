@@ -16,7 +16,7 @@ We also host a Community Prediction Competition about [Visual Color Difference E
 ## Prerequisites
 * python 3.10
 * pytorch 1.12.0
-* ``pip install -r requirements.txt``
+* ``pip install -r requirement.txt``
 
 ## Usage
 ```sh
