@@ -18,8 +18,6 @@ from utils.ImageDataset import ImageDataset
 from utils.Transformers import AdaptiveResize
 from utils.utils import get_latest_checkpoint,save_checkpoint
 from utils.coeff_func import compute_stress, coeff_fit
-# from utils.qpsolver import landmarks
-# from ot import wasserstein_1d
 from  utils.EMA import EMA
 from tqdm import tqdm
 from utils.queue import ft_Queue
@@ -33,15 +31,13 @@ class Trainer(object):
                 transforms.RandomHorizontalFlip(p=0.5),
                 transforms.RandomVerticalFlip(p=0.5),
                 transforms.RandomInvert(p=0.5),
-                transforms.RandomCrop(512),
+                transforms.RandomCrop(768),
                 transforms.ToTensor(),
             ])
 
         self.test_transform = transforms.Compose([
-            AdaptiveResize(512),
+            AdaptiveResize(1024),
             transforms.ToTensor(),
-            # transforms.Normalize(mean=(0.485, 0.456, 0.406),
-            #                      std=(0.229, 0.224, 0.225))
         ])
         self.train_batch_size = config.batch_size
         self.test_batch_size = config.batch_size
