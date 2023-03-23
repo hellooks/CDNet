@@ -10,28 +10,14 @@ Measures for visual color differences (CDs) are pivotal in hardware and software
 2) altered by Photoshop®
 3) post-processed by built-in filters of smartphones
 4) reproduced with incorrect color profiles
-We conduct a large-scale psychophysical experiment to gather perceptual CDs of 30,000 image pairs in a carefully controlled laboratory environment.
+We conduct a large-scale psychophysical experiment to gather perceptual CDs of 30,000 image pairs in a carefully controlled laboratory environment.You can download via [BaiduDisk](https://pan.baidu.com/s/18bzu-qhpMW3PqLTlVdoZRQ?pwd=txeh) or [Google Drive](https://drive.google.com/drive/folders/1Wh9fcDPviZcYWqCpXvnsJux1mnZ5WkCf?usp=share_link).
+We also host a Community Prediction Competition about [Visual Color Difference Evaluation](https://www.kaggle.com/competitions/visual-color-difference-evaluation).
 ## Prerequisites
 * python 3.10
 * pytorch 1.12.0
 * ``pip install -r requirements.txt``
-```sh
-Python>=3.6
-Pytorch>=1.0
-cnn_finetune
-```
+
 Go check them out if you don't have them locally installed.
-
-======== SPCD Database ========
-
-
-You can download via [BaiduDisk](https://pan.baidu.com/s/18bzu-qhpMW3PqLTlVdoZRQ?pwd=txeh) or [Google Drive](https://drive.google.com/drive/folders/1Wh9fcDPviZcYWqCpXvnsJux1mnZ5WkCf?usp=share_link).
-
-======== Kaggle Competetion ========
-
-We also host a [Community Prediction Competition](https://www.kaggle.com/competitions/visual-color-difference-evaluation).
-
-
 ## Usage
 ```sh
 $ git clone https://github.com/hellooks/CDnet
@@ -41,7 +27,7 @@ $ git clone https://github.com/hellooks/CDnet
 If you find the repository helpful in your resarch, please cite the following papers.
 ```sh
 @article{wang2022measuring,
-  title={Measuring Perceptual Color Differences of Smartphone Photography},
+  title={Measuring Perceptual Color Differences of Smartphone Photographs},
   author={Wang, Zhihua and Xu, Keshuo and Yang, Yang and Dong, Jianlei and Gu, Shuhang and Xu, Lihao and Fang, Yuming and Ma, Kede},
   journal={arXiv preprint arXiv:2205.13489},
   year={2022}
