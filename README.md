@@ -11,7 +11,7 @@ Measures for visual color differences (CDs) are pivotal in hardware and software
 3) post-processed by built-in filters of smartphones
 4) reproduced with incorrect color profiles
 
-We conduct a large-scale psychophysical experiment to gather perceptual CDs of 30,000 image pairs in a carefully controlled laboratory environment.You can download via [BaiduDisk](https://pan.baidu.com/s/18bzu-qhpMW3PqLTlVdoZRQ?pwd=txeh) or [Google Drive](https://drive.google.com/drive/folders/1Wh9fcDPviZcYWqCpXvnsJux1mnZ5WkCf?usp=share_link).
+We conduct a large-scale psychophysical experiment to gather perceptual CDs of 30,000 image pairs in a carefully controlled laboratory environment. You can download the dataset via [BaiduDisk](https://pan.baidu.com/s/18bzu-qhpMW3PqLTlVdoZRQ?pwd=txeh) or [Google Drive](https://drive.google.com/drive/folders/1Wh9fcDPviZcYWqCpXvnsJux1mnZ5WkCf?usp=share_link).
 We also host a Community Prediction Competition about [Visual Color Difference Evaluation](https://www.kaggle.com/competitions/visual-color-difference-evaluation).
 ## Prerequisites
 * python 3.10
