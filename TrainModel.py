@@ -1,6 +1,4 @@
-import imp
 import os, math, time
-import scipy.stats
 import numpy as np
 import pandas as pd
 import torch
@@ -10,17 +8,14 @@ from torch.utils.data import DataLoader
 from torch.optim import lr_scheduler
 from torch.autograd import Variable
 from torchvision import transforms
-import torch.nn.functional as F
 import prettytable as pt
-import matplotlib.pyplot as plt
 from model import Siamese
 from utils.ImageDataset import ImageDataset
 from utils.Transformers import AdaptiveResize
 from utils.utils import get_latest_checkpoint,save_checkpoint
 from utils.coeff_func import compute_stress, coeff_fit
 from  utils.EMA import EMA
-from tqdm import tqdm
-from utils.queue import ft_Queue
+
 
 class Trainer(object):
     def __init__(self, config):

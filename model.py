@@ -3,8 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.models as models
 from torch.nn import init
-from torch.autograd import Function
-import numpy as np
 
 def weights_init(m):
     classname = m.__class__.__name__

@@ -4,7 +4,6 @@ import numpy as np
 import TrainModel
 from utils.utils import initialcode
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-# os.environ['CUDA_VISIBLE_DEVICES'] = '2'
 def parse_config():
     parser = argparse.ArgumentParser()
     parser.add_argument("--train", type=int, default=True)
@@ -38,7 +37,6 @@ def main(cfg):
     torch.manual_seed(config.seed)  
     t = TrainModel.Trainer(cfg)
     if cfg.train:
-        # print('train mode:{}'.format(cfg.train_txt))
         print(cfg)
         print('start training')
         t.fit()
@@ -53,15 +51,7 @@ if __name__ == "__main__":
     config.train = True # modify when test
     print(initialcode(config=config))
     if config.train:
-        # config.scheduler_milestones=[1]
-        # config.fz = True
-        # config.batch_size = 8
-        # config.resume = False
-        # config.max_epochs = 1
-        # main(config)
-
         config.scheduler_milestones=[5,10,15,20,30,35]
-        # config.fz = False
         config.batch_size = 8
         config.resume = False  # resuming from the latest checkpoint of stage 1
         config.max_epochs = 50
