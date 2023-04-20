@@ -28,8 +28,8 @@ If you find the repository helpful in your resarch, please cite the following pa
 @article{wang2022measuring,
   title={Measuring Perceptual Color Differences of Smartphone Photographs},
   author={Wang, Zhihua and Xu, Keshuo and Yang, Yang and Dong, Jianlei and Gu, Shuhang and Xu, Lihao and Fang, Yuming and Ma, Kede},
-  journal={arXiv preprint arXiv:2205.13489},
-  year={2022}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)},
+  year={2023}
 }
 ```
 ```sh
