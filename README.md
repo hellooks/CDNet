@@ -25,12 +25,15 @@ $ git clone https://github.com/hellooks/CDNet
 ## Citation
 If you find the repository helpful in your resarch, please cite the following papers.
 ```sh
-@article{wang2022measuring,
-  title={Measuring Perceptual Color Differences of Smartphone Photographs},
+@article{wang2022cdnet,
   author={Wang, Zhihua and Xu, Keshuo and Yang, Yang and Dong, Jianlei and Gu, Shuhang and Xu, Lihao and Fang, Yuming and Ma, Kede},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)},
-  year={2023}
-}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)}, 
+  title={Measuring Perceptual Color Differences of Smartphone Photographs}, 
+  year={2023},
+  volume={},
+  number={},
+  doi={10.1109/TPAMI.2023.3262424}
+  }
 ```
 ```sh
 @inproceedings{xu2022database,
